@@ -1,0 +1,15 @@
+.brands__content {
+    background-color: #EBD96B;
+    padding: 60px 0;
+}
+
+.brands__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.brands__row img {
+   mix-blend-mode: darken;
+}

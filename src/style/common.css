@@ -1,0 +1,16 @@
+.App {
+    min-height: 100%;
+    overflow: hidden;
+    /* border: 1px solid blue; */
+}
+
+.container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 30px;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.card img {
+    border-radius: 15px;
+}
+
+.card__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+.card__promo {
+    display: flex;
+    justify-content: space-between;
+}
