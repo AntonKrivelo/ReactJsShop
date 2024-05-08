@@ -9,7 +9,7 @@ import logo from '../../image/icons/logo.svg';
 const Header = (props) => {
     return (  
             <header className={classes.header}>
-                <div className={classes.container}>   
+                <div className="container">   
                     <div className={classes.header__row}>
                         <div className={classes.header__logo}>
                             <img className={classes.logo} src={logo} />

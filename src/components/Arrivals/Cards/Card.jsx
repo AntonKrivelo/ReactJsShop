@@ -1,5 +1,7 @@
 import React from "react";
 import cat__1 from '../../../image/categories/cat-01.jpg';
+import cat__2 from '../../../image/categories/cat-02.jpg';
+import cat__3 from '../../../image/categories/cat-03.jpg';
 import arrow from '../../../image/icons/arrow.svg';
 import classes from './Card.module.css';
 
