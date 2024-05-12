@@ -7,13 +7,41 @@ import classes from './Card.module.css';
 
 
 
-const Card = () => {
+const Card = (props) => {
     return (
-        <div className={classes.card}>
-            <img src={cat__1} alt="cat-1" />
-            <span className={classes.card__title}>Hoodies & Sweetshirt</span>
-            <span className={classes.card__promo}>Explore Now! <img src={arrow} alt="arrow" /></span>
-    </div>
+        <div className={classes.cards}>
+            
+                <div className={classes.card__item}>
+                    <img src={cat__1} alt="cat-1" />
+                    <div className={classes.card__title}>
+                        Hoodies & Sweetshirt
+                    </div>
+                    <div className={classes.card__mute}>
+                        Explore Now!
+                        <img src={arrow} alt="arrow" />
+                    </div>
+                </div>
+                <div className={classes.card__item}>
+                    <img src={cat__2} alt="cat-2" />
+                    <div className={classes.card__title}>
+                        Hoodies & Sweetshirt
+                    </div>
+                    <div className={classes.card__mute}>
+                        Explore Now!
+                        <img src={arrow} alt="arrow" />
+                    </div>
+                </div>
+                <div className={classes.card__item}>
+                    <img src={cat__3} alt="cat-3" />
+                    <div className={classes.card__title}>
+                        Hoodies & Sweetshirt
+                    </div>
+                    <div className={classes.card__mute}>
+                        Explore Now!
+                        <img src={arrow} alt="arrow" />
+                    </div>
+                </div>
+         </div>
     );
 };
 

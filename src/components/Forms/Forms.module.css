@@ -1,0 +1,39 @@
+.forms__page {
+    background-color: #E5C643;
+    padding: 100px 100px;
+}
+.header__form {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+}
+.subheader__text {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.input__email {
+    background-color: #FFF;
+    padding: 20px 80px;
+    border-radius: 10px;
+    position: relative;
+}
+.btn__form {
+    background-color: #000;
+    color: #FFF;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    right: 41%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

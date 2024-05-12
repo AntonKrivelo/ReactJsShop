@@ -1,17 +1,23 @@
-.card {
+.cards {
     display: flex;
-    flex-direction: column;
-    cursor: pointer;
+    column-gap: 100px;
 }
-.card img {
+.cards img {
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .card__title {
     font-size: 32px;
     font-weight: 600;
+    margin-top: 20px;
 }
-.card__promo {
+
+.card__mute {
     display: flex;
     justify-content: space-between;
+}
+
+.card__item img:hover {
+    opacity: 0.7;
 }

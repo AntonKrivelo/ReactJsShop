@@ -9,7 +9,7 @@ const Arrivals = (props) => {
             <div className="container">
                 <h2 className={classes.arrivals__title}>NEW ARRIVALS</h2>
                     <div className={classes.arrivals__row}>
-                        <Card />
+                        <Card cardData={props.data.cardData} />
                     </div>
             </div>
         </section>
