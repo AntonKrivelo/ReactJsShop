@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Promo from './components/Promotion/Promo';
+import Promo from './pages/Promotion/Promo';
 import Brands from './components/Brands/Brands';
-import Arrivals from './components/Arrivals/Arrivals';
-import Sale from './components/Sale/Sale';
-import Favourite from './components/Favourite/Favourite';
-import Application from './components/Application/Application';
-import Forms from './components/Forms/Forms';
 import Footer from './components/Footer/Footer';
-
+import Arrivals from './pages/Arrivals/Arrivals.jsx';
+import { Route, Routes } from 'react-router-dom';
+import Favourite from './pages/Favourite/Favourite.jsx';
+import Sale from './components/Sale/Sale.jsx';
+import Forms from './pages/Forms/Forms.jsx';
+import Application from './components/Application/Application.jsx';
 
 
 let data = {
@@ -24,15 +24,22 @@ let data = {
 
 function App (props) {
   return (
-    <div className='App'>     
+    <div className='App'>  
           <Header />
-          <Promo />
-          <Brands />
+          {/* <Promo />
           <Arrivals data={data} />
           <Sale />
           <Favourite />
-          <Application />
-          <Forms />
+           */} 
+          <Routes>
+              <Route path="/" Component={ Promo } />
+              <Route path="/catalogue" element={ <Arrivals data={data} /> }  />
+              <Route path="/favourite" element={<Favourite /> } />
+              <Route path="/lifestyle" Component={ Sale } />
+              <Route path="/app" Component={ Application } />  
+          </Routes>    
+           {/* <Forms /> */}
+          <Brands />    
           <Footer />
     </div>
   );

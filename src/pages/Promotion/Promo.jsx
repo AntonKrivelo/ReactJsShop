@@ -3,8 +3,11 @@ import classes from './Promo.module.css';
 import girls from '../../image/bg/header-img.jpg';
 import vec from '../../image/vector/lepest.svg';
 
+
+
 const Promo = (props) => {
     return (
+        <div>  
         <div className="container">
             <section className={classes.promo}>
                 <div className={classes.promo__content}>
@@ -30,6 +33,8 @@ const Promo = (props) => {
                     </div>
                 </div>
             </section>
+            
+            </div>
         </div>
     );
 };

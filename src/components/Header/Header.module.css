@@ -55,6 +55,11 @@
     
 }
 
+.line {
+    background-color: #000;
+    border: 1px solid black;
+}
+
 @media(max-width: 576px) {
     nav__menu {
         position: fixed;

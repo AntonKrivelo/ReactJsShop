@@ -2,7 +2,7 @@
     background-color: #F4F6F5;
     border-radius: 59px;
     margin-bottom: 63px;
-    padding: 0 120px;
+    padding-left: 90px;
 }
 
 .promo__text {
@@ -31,10 +31,6 @@
 }
 
 
-
-
-
-
 .promo__content {
     display: flex;
     gap: 80px;
@@ -48,6 +44,11 @@
 }
 .promo__img {
     display: flex;
+    img {
+        object-fit: cover;
+        object-position: -10px 3px;
+        border-radius: 72px;
+    }
 }
 
 .promo__buy {
@@ -69,3 +70,7 @@
     color: #000;
     border: 1px solid #000;
 }
+
+
+
+

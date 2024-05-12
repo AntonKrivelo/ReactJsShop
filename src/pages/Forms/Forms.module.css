@@ -1,6 +1,8 @@
 .forms__page {
-    background-color: #E5C643;
+    background-color: #000000;
     padding: 100px 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .header__form {
     color: #FFF;
