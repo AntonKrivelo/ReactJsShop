@@ -7,7 +7,6 @@ import Arrivals from './pages/Arrivals/Arrivals.jsx';
 import { Route, Routes } from 'react-router-dom';
 import Favourite from './pages/Favourite/Favourite.jsx';
 import Sale from './components/Sale/Sale.jsx';
-import Forms from './pages/Forms/Forms.jsx';
 import Application from './components/Application/Application.jsx';
 
 
