@@ -15,7 +15,7 @@ let data = {
   cardData: [
     {title: 'Hoodies & Sweetshirt', promo: 'Explore Now!'},
     {title: 'Coats & Parkas', promo: 'Explore Now!'},
-    {title: 'Tees & T-Shirt', promo: 'Explore Now!'},
+    {title: 'Tees & T-Shirt', promo: 'Explore Now!!'},
   ],
 };
 
